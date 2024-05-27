@@ -22,6 +22,22 @@ body {
   .question {
     margin-bottom: 20px;
   }
+  .refresh-button {
+    display: block;
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #c0392b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .refresh-button:hover {
+    background-color: #962d22;
+  }
   
   .question p {
     font-size: 18px;
