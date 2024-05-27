@@ -8,14 +8,14 @@ body {
   .container {
     max-width: 800px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color:pink;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   h1 {
-    color: #333;
+    color: #1abc9c;
     text-align: center;
   }
   
@@ -25,14 +25,16 @@ body {
   
   .question p {
     font-size: 18px;
-    color:black;
+    color:navy;
   }
   
   .dropdown {
     padding: 8px;
     font-size: 16px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #1abc9c;
+    background-color: #fff;
+    color: #333;
   }
   
   .validation {
@@ -41,21 +43,21 @@ body {
   }
   
   .validation .correct {
-    color: green;
+    color: #27ae60;
   }
   
   .validation .incorrect {
-    color: red;
+    color: #c0392b;
   }
   
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
+  .answers {
+    margin-top: 20px;
   }
   
-  ul li {
-    font-size: 18px;
+  .answers h2 {
+    font-size: 22px;
     color: #333;
   }
+  
+  
   
